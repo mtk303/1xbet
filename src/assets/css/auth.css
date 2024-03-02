@@ -1,0 +1,19 @@
+.authForm{
+    width: 40%;
+    margin: auto;
+}
+.authBtn{
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    background: #5296CB;
+    color: #fff;
+    width: 200px;
+    margin:0 auto;
+    
+}
+@media screen and (max-width:760px) {
+    .authForm{
+        width: 80%;
+    }
+}
