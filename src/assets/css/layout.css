@@ -1,0 +1,42 @@
+.navbar{
+    background: #EEF4F8;
+    cursor: pointer;
+    
+}
+.logo{
+    height: 25px;
+    width: auto;
+    object-fit: cover;
+}
+.offcanvas{
+    background: rgba(30, 59, 90, 0.95);
+    color: #fff;
+    overflow-y: scroll;
+}
+.sideMenuItem{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.sideMenuItem img{
+    width: 35px;
+    height: 35px;
+}
+.registerBtn{
+    background: #86B634;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+.loginBtn{
+    background: #5296CB;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
