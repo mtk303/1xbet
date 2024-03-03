@@ -1,11 +1,10 @@
 import React from 'react'
-
+import Carousel from '../components/Carousel'
+import '../assets/css/home.css'
 const Home = () => {
   return (
     <div>
-      <h1 className="text-danger text-decoration-underline">
-      HomePage
-      </h1>
+      <Carousel/>
     </div>
   )
 }
